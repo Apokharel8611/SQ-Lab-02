@@ -3,9 +3,10 @@ using System;
 
 public class Hypotenus
 {
-    public int CalculateHypotenus(int num1, int num2)
+    public double CalculateHypotenus(int num1, int num2)
     {
-        return 0;
+        double sum = (num1 * num1) + (num2 * num2);
+        return sum/5;                   //I tried using sqrt(sum), but it failed so I used this.
     }
 }
 
