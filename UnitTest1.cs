@@ -11,8 +11,8 @@ public class Triangle
 
     public double CalculateArea(int num1, int num2)
     {
-       
-        return 0;    
+        double area = 0.5 * num1 * num2;
+        return area;    
     }
 }
 
