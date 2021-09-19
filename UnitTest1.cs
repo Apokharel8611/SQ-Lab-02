@@ -18,8 +18,8 @@ public class Triangle
 
     public double CalculateAngle(int num1, int num2)
     {
-       
-        return 0;
+        double angle = 180 - (num1 + num2);
+        return angle;
     }
 }
 
