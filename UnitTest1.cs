@@ -14,6 +14,13 @@ public class Triangle
         double area = 0.5 * num1 * num2;
         return area;    
     }
+
+
+    public double CalculateAngle(int num1, int num2)
+    {
+       
+        return 0;
+    }
 }
 
 namespace SQ_Lab_02
@@ -35,6 +42,14 @@ namespace SQ_Lab_02
             Triangle obj = new Triangle();
             double result = obj.CalculateArea(4, 3);
             Assert.AreEqual(6, result);
+        }
+
+        [TestMethod]
+        public void Angle()
+        {
+            Triangle obj = new Triangle();
+            double result = obj.CalculateAngle(30, 70);
+            Assert.AreEqual(80, result);
         }
     }
 }
